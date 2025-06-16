@@ -25,20 +25,14 @@ All managed via [Poetry](https://python-poetry.org/).
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/your-user/tts.git
+git clone https://github.com/AndersonGrisalesV/TTS.git
 cd tts
 ```
 
 ## 2. Install Poetry (if not already installed)
 
 ```bash
-# Windows (PowerShell)
-(Invoke-WebRequest -Uri https://install.python-poetry.org -UseBasicParsing).Content | py -
-```
-
-```bash
-# macOS/Linux
-curl -sSL https://install.python-poetry.org | python3 -
+curl -sSL https://install.python-poetry.org | python -
 ```
 
 ## 3. Install dependencies using Poetry
@@ -50,5 +44,17 @@ poetry install
 ## 4. Activate the virtual environment
 
 ```bash
-poetry shell
+source .venv/Scripts/activate
+```
+
+or
+
+```bash
+source .venv/bin/activate
+```
+
+## 5. Run the TTS Project
+
+```bash
+streamlit run app.py
 ```
