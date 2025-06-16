@@ -1,0 +1,6 @@
+# Python bytecode cache
+__pycache__/
+
+# Poetry virtual environment (stored locally)
+.venv/
+
