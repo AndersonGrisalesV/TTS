@@ -38,7 +38,7 @@ curl -sSL https://install.python-poetry.org | python -
 ## 3. Install dependencies using Poetry
 
 ```bash
-poetry install
+poetry install 
 ```
 
 ## 4. Activate the virtual environment
